@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="vibe-mofa - The Vibing Framework for MoFA">
+    <title>vibe-mofa - The Vibing Framework for MoFA</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 60px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 300;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .btn {
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .btn-secondary:hover {
+            background: #667eea;
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 30px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .subtitle {
+                font-size: 1.2rem;
+            }
+
+            .buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>vibe-mofa</h1>
+        <div class="subtitle">The Vibing Framework for MoFA</div>
+        
+        <div class="description">
+            <p>Welcome to vibe-mofa, an innovative framework designed to bring vibrant experiences to MoFA applications.</p>
+            <p>This project is currently in development. Stay tuned for updates!</p>
+        </div>
+
+        <div class="buttons">
+            <a href="https://github.com/XiaoKuge/vibe-mofa" class="btn btn-primary" target="_blank">
+                View on GitHub
+            </a>
+            <a href="https://github.com/XiaoKuge/vibe-mofa/blob/main/README.md" class="btn btn-secondary" target="_blank">
+                Documentation
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>Licensed under the <a href="https://github.com/XiaoKuge/vibe-mofa/blob/main/LICENSE" target="_blank">MIT License</a></p>
+            <p>&copy; 2026 Xiao, Kuge</p>
+        </div>
+    </div>
+</body>
+</html>
