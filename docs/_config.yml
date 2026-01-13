@@ -1,0 +1,22 @@
+title: vibe-mofa
+description: The Vibing Framework for MoFA
+author: Xiao, Kuge
+url: https://xiaokuge.github.io/vibe-mofa
+
+# GitHub Pages settings
+github:
+  repository_url: https://github.com/XiaoKuge/vibe-mofa
+  is_project_page: true
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
